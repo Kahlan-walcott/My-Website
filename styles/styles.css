@@ -69,6 +69,61 @@
   text-align: center;
   margin-bottom: 15px;
 }
+#Contact .form {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+#Contact .form-control {
+    display:inline-block;
+    width:100%;
+    padding:.375rem .75rem;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#212529;
+    background-clip:padding-box;
+    border:1px solid #ced4da;
+}
+
+#Contact .message {
+    flex:0 0 auto;
+    width:100%;
+    display:inline-block;
+}
+#Contact .btn-primary {
+    color:#fff;
+    background-color:#0d6efd;
+    border-color:#0d6efd;
+    cursor:pointer;
+    display:inline-block;
+    font-weight:400;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+#Contact .btn-primary:hover {
+    color:#fff;
+    background-color:#6c03e0;
+    border-color:#af7ac5;
+    display:inline-block;
+}
+
+#Contact .form-info {
+    flex: 0 0 auto;
+    width: 50%;
+    text-align: center;
+    display:inline-block;
+}
+
+#Contact .email {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+    display:inline-block;
+}
 #Contact .intro {
     font-size: 20px;
 }
@@ -90,3 +145,7 @@
 #Languages img {
     align: center;
 }
+#Languages a {
+    text-decoration: none;
+}
+
