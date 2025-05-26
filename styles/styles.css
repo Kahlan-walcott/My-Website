@@ -4,7 +4,7 @@
     background-attachment: fixed;
     background-size: cover;
     height: 400px;
-    length: 500px;
+
     width: auto;
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@
 }
 .header img {
   clip-path: circle(50%);
-  align: left;
+ 
   margin-right: 100px;
   margin-left: 100px;
 }
@@ -149,22 +149,6 @@ input[type=text] {
   box-sizing: border-box;
 }
 
-input[type=submit] {
-  width: 50%;
-  background-color: #1fa4da;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: block;
-}
-
-input[type=submit]:hover {
-  background-color: #5ec0f5;
-}
-
 #Languages p {
   color: black;
   text-align: center;
@@ -179,9 +163,7 @@ input[type=submit]:hover {
   display: inline-block;
   text-align: center;
 }
-#Languages img {
-    align: center;
-}
+
 #Languages a {
     text-decoration: none;
 }
