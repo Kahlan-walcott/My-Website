@@ -168,3 +168,9 @@ input[type=text] {
     text-decoration: none;
 }
 
+.text {
+  text-align:center; 
+  display:inline-block; 
+  margin-right: 20px;
+}
+
